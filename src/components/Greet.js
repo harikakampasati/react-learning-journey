@@ -1,4 +1,12 @@
 import React from "react";
-const Great = () =>  <h1>hello Harika</h1>
+const Great = props =>{
+    console.log(props)
+    return (
+        <div>
+            <h1>hello {props.name} This is {props.as}</h1>
+            {props.children} 
+        </div>
+    )
+}
 
 export default Great

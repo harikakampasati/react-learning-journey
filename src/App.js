@@ -21,9 +21,25 @@ function App() {
         </a>
       </header> */}
 
-     <Hi/>
-      {/* <Great/>
-      <Welcome/> */}
+     {/* <Hi/> */}
+      <Great name='Harika' as='me'>
+        <p>This is a children props</p>
+      </Great>
+      <Great name='Mohan'  as='brother'>
+        <button>Action</button>
+      </Great>
+
+      <Great name='Posi' as='hubby'/>
+
+      <Welcome name='Harika' as='me'>
+
+      </Welcome>
+      <Welcome name='Mohan'  as='brother'>
+
+      </Welcome>
+      <Welcome name='Posi' as='hubby'>
+
+      </Welcome>
 
     </div>
   );
